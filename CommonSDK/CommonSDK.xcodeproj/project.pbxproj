@@ -10,6 +10,7 @@
 		BDC522B42AA9E15E00D71D7A /* CommonSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = BDC522B32AA9E15E00D71D7A /* CommonSDK.docc */; };
 		BDC522B52AA9E15E00D71D7A /* CommonSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC522B22AA9E15E00D71D7A /* CommonSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDC522BC2AA9E19D00D71D7A /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC522BB2AA9E19D00D71D7A /* Validator.swift */; };
+		BDC522BF2AA9F10600D71D7A /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC522BE2AA9F10500D71D7A /* AppIntents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		BDC522B22AA9E15E00D71D7A /* CommonSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSDK.h; sourceTree = "<group>"; };
 		BDC522B32AA9E15E00D71D7A /* CommonSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CommonSDK.docc; sourceTree = "<group>"; };
 		BDC522BB2AA9E19D00D71D7A /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		BDC522BE2AA9F10500D71D7A /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC522BF2AA9F10600D71D7A /* AppIntents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +38,7 @@
 			children = (
 				BDC522B12AA9E15E00D71D7A /* CommonSDK */,
 				BDC522B02AA9E15E00D71D7A /* Products */,
+				BDC522BD2AA9F10400D71D7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +58,14 @@
 				BDC522B32AA9E15E00D71D7A /* CommonSDK.docc */,
 			);
 			path = CommonSDK;
+			sourceTree = "<group>";
+		};
+		BDC522BD2AA9F10400D71D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC522BE2AA9F10500D71D7A /* AppIntents.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
