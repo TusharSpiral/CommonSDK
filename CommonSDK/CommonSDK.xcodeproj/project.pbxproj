@@ -11,14 +11,36 @@
 		BDC522B52AA9E15E00D71D7A /* CommonSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC522B22AA9E15E00D71D7A /* CommonSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDC522BC2AA9E19D00D71D7A /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC522BB2AA9E19D00D71D7A /* Validator.swift */; };
 		BDC522BF2AA9F10600D71D7A /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC522BE2AA9F10500D71D7A /* AppIntents.framework */; };
+		BDC522C22AA9F26000D71D7A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BDC522C12AA9F26000D71D7A /* Alamofire */; };
+		BDC522C42AA9FEC600D71D7A /* Purchasely.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC522C32AA9FEC600D71D7A /* Purchasely.swift */; };
+		BDC522C72AAA029E00D71D7A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDC522C92AAA029E00D71D7A /* Localizable.strings */; };
+		BDC522D22AAA02F400D71D7A /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC522D12AAA02F400D71D7A /* Localization.swift */; };
+		BDC522D42AAA032C00D71D7A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC522D32AAA032B00D71D7A /* Event.swift */; };
+		BDC522D72AAA06CE00D71D7A /* YandexMobileMetrica in Frameworks */ = {isa = PBXBuildFile; productRef = BDC522D62AAA06CE00D71D7A /* YandexMobileMetrica */; };
+		BDC522D92AAA06CE00D71D7A /* YandexMobileMetricaCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = BDC522D82AAA06CE00D71D7A /* YandexMobileMetricaCrashes */; };
+		DAEB006BC11921D5A7A2C99E /* Pods_CommonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2ED50FBA1A60972723D4C6D /* Pods_CommonSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FE443035B7BA3E087BE718D /* Pods-CommonSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSDK.release.xcconfig"; path = "Target Support Files/Pods-CommonSDK/Pods-CommonSDK.release.xcconfig"; sourceTree = "<group>"; };
 		BDC522AF2AA9E15E00D71D7A /* CommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC522B22AA9E15E00D71D7A /* CommonSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSDK.h; sourceTree = "<group>"; };
 		BDC522B32AA9E15E00D71D7A /* CommonSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CommonSDK.docc; sourceTree = "<group>"; };
 		BDC522BB2AA9E19D00D71D7A /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		BDC522BE2AA9F10500D71D7A /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		BDC522C32AA9FEC600D71D7A /* Purchasely.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchasely.swift; sourceTree = "<group>"; };
+		BDC522C82AAA029E00D71D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDC522CA2AAA02A200D71D7A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDC522CB2AAA02A300D71D7A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDC522CC2AAA02A600D71D7A /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDC522CD2AAA02A700D71D7A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDC522CE2AAA02A700D71D7A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDC522CF2AAA02A800D71D7A /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDC522D02AAA02A900D71D7A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDC522D12AAA02F400D71D7A /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		BDC522D32AAA032B00D71D7A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D2ED50FBA1A60972723D4C6D /* Pods_CommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57253184B6D3E35E82C03D1 /* Pods-CommonSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSDK.debug.xcconfig"; path = "Target Support Files/Pods-CommonSDK/Pods-CommonSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC522D92AAA06CE00D71D7A /* YandexMobileMetricaCrashes in Frameworks */,
 				BDC522BF2AA9F10600D71D7A /* AppIntents.framework in Frameworks */,
+				BDC522D72AAA06CE00D71D7A /* YandexMobileMetrica in Frameworks */,
+				BDC522C22AA9F26000D71D7A /* Alamofire in Frameworks */,
+				DAEB006BC11921D5A7A2C99E /* Pods_CommonSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +65,7 @@
 				BDC522B12AA9E15E00D71D7A /* CommonSDK */,
 				BDC522B02AA9E15E00D71D7A /* Products */,
 				BDC522BD2AA9F10400D71D7A /* Frameworks */,
+				CF0A33FB7E370C659E938165 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,7 +81,11 @@
 			isa = PBXGroup;
 			children = (
 				BDC522B22AA9E15E00D71D7A /* CommonSDK.h */,
+				BDC522D12AAA02F400D71D7A /* Localization.swift */,
+				BDC522C32AA9FEC600D71D7A /* Purchasely.swift */,
+				BDC522D32AAA032B00D71D7A /* Event.swift */,
 				BDC522BB2AA9E19D00D71D7A /* Validator.swift */,
+				BDC522C92AAA029E00D71D7A /* Localizable.strings */,
 				BDC522B32AA9E15E00D71D7A /* CommonSDK.docc */,
 			);
 			path = CommonSDK;
@@ -64,8 +95,18 @@
 			isa = PBXGroup;
 			children = (
 				BDC522BE2AA9F10500D71D7A /* AppIntents.framework */,
+				D2ED50FBA1A60972723D4C6D /* Pods_CommonSDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF0A33FB7E370C659E938165 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E57253184B6D3E35E82C03D1 /* Pods-CommonSDK.debug.xcconfig */,
+				6FE443035B7BA3E087BE718D /* Pods-CommonSDK.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDC522B82AA9E15E00D71D7A /* Build configuration list for PBXNativeTarget "CommonSDK" */;
 			buildPhases = (
+				327434C7CC461349AFBF47B9 /* [CP] Check Pods Manifest.lock */,
 				BDC522AA2AA9E15E00D71D7A /* Headers */,
 				BDC522AB2AA9E15E00D71D7A /* Sources */,
 				BDC522AC2AA9E15E00D71D7A /* Frameworks */,
@@ -96,6 +138,11 @@
 			dependencies = (
 			);
 			name = CommonSDK;
+			packageProductDependencies = (
+				BDC522C12AA9F26000D71D7A /* Alamofire */,
+				BDC522D62AAA06CE00D71D7A /* YandexMobileMetrica */,
+				BDC522D82AAA06CE00D71D7A /* YandexMobileMetricaCrashes */,
+			);
 			productName = CommonSDK;
 			productReference = BDC522AF2AA9E15E00D71D7A /* CommonSDK.framework */;
 			productType = "com.apple.product-type.framework";
@@ -121,8 +168,19 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				"zh-HK",
+				"zh-Hant",
+				"zh-Hans",
+				fr,
+				de,
+				"es-419",
 			);
 			mainGroup = BDC522A52AA9E15E00D71D7A;
+			packageReferences = (
+				BDC522C02AA9F26000D71D7A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BDC522D52AAA06CE00D71D7A /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */,
+			);
 			productRefGroup = BDC522B02AA9E15E00D71D7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,22 +195,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC522C72AAA029E00D71D7A /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		327434C7CC461349AFBF47B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BDC522AB2AA9E15E00D71D7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC522C42AA9FEC600D71D7A /* Purchasely.swift in Sources */,
 				BDC522BC2AA9E19D00D71D7A /* Validator.swift in Sources */,
+				BDC522D22AAA02F400D71D7A /* Localization.swift in Sources */,
 				BDC522B42AA9E15E00D71D7A /* CommonSDK.docc in Sources */,
+				BDC522D42AAA032C00D71D7A /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDC522C92AAA029E00D71D7A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC522C82AAA029E00D71D7A /* en */,
+				BDC522CA2AAA02A200D71D7A /* ar */,
+				BDC522CB2AAA02A300D71D7A /* zh-Hans */,
+				BDC522CC2AAA02A600D71D7A /* zh-HK */,
+				BDC522CD2AAA02A700D71D7A /* zh-Hant */,
+				BDC522CE2AAA02A700D71D7A /* fr */,
+				BDC522CF2AAA02A800D71D7A /* es-419 */,
+				BDC522D02AAA02A900D71D7A /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BDC522B62AA9E15E00D71D7A /* Debug */ = {
@@ -277,6 +382,7 @@
 		};
 		BDC522B92AA9E15E00D71D7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57253184B6D3E35E82C03D1 /* Pods-CommonSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -309,6 +415,7 @@
 		};
 		BDC522BA2AA9E15E00D71D7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE443035B7BA3E087BE718D /* Pods-CommonSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -361,6 +468,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDC522C02AA9F26000D71D7A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		BDC522D52AAA06CE00D71D7A /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yandexmobile/metrica-sdk-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDC522C12AA9F26000D71D7A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDC522C02AA9F26000D71D7A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		BDC522D62AAA06CE00D71D7A /* YandexMobileMetrica */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDC522D52AAA06CE00D71D7A /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */;
+			productName = YandexMobileMetrica;
+		};
+		BDC522D82AAA06CE00D71D7A /* YandexMobileMetricaCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDC522D52AAA06CE00D71D7A /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */;
+			productName = YandexMobileMetricaCrashes;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDC522A62AA9E15E00D71D7A /* Project object */;
 }
